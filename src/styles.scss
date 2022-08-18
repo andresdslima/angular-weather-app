@@ -139,6 +139,24 @@ body {
       text-align: center;
     }
 
+    button {
+      background-color: var(--white);
+      outline: none;
+      border: none;
+      border-radius: 20px;
+      padding: 1em;
+      color: #000;
+      font-size: 0.8em;
+      text-align: center;
+      margin-left: 1em;
+
+      &:hover {
+        background-color: var(--yellow-1);
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
+
     small {
       color: var(--white);
     }
