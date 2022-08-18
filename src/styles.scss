@@ -30,6 +30,10 @@ body {
     border-radius: 20px;
     box-shadow: 10px 10px 10px var(--shadow-dark);
 
+    @media screen and (max-width: 450px) {
+      width: 100%;
+    }
+
     .upper-data {
       position: relative;
       overflow: hidden;
