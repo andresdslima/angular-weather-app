@@ -1,4 +1,4 @@
-* Weather Forecast Project *
+# Weather Forecast Project
 
 - [App deploy](https://angular-weather-andresdslima.vercel.app)
 - [GitHub repository](https://github.com/andresdslima/angular-weather-app)
