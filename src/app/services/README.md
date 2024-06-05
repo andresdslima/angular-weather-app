@@ -1,1 +1,0 @@
-# angular-weather-app
