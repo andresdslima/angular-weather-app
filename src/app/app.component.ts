@@ -5,7 +5,7 @@ import { WeatherData } from './models/weather.model';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
   constructor(private weatherService: WeatherService) { }
@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
   private getWeatherData(location: string) {
     this.weatherService.getWeatherData(location).subscribe({
       next: (response) => {
-        const data: WeatherData = Object.values(response.locations)[0];
+        const data: any = Object.values(response.locations)[0];
         this.weatherData = data;
       },
     });
