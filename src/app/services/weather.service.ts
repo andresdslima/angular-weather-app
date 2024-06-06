@@ -7,7 +7,7 @@ import { WeatherData } from '../models/weather.model';
   providedIn: 'root',
 })
 export class WeatherService {
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   getWeatherData(location: string): Observable<WeatherData> {
     return this.http.get<WeatherData>(
